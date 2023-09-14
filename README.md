@@ -1,5 +1,40 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Project Deployed in Vercel: [Clone X App]()
+
+Nextjs 13 Project using:
+
+- Src and App Folder
+- Import Alias (@)
+- ESLint
+- .env.local and .env
+- Google Fonts and TailwindCSS, NextUI and Framer Motion, Flowbite Icons SVG
+- Metadata
+- Link and Image Components
+- Layout and Page Structure
+- Client Routes
+- Dynamic Routes
+- API Routes using Route Handlers API
+- Supabase Auth, Database Real Time, API, Edge Functions, Real Time Subscriptions, Storage, Vectors AI and Auth Providers (vs Firebase but Supabase have best scalability)
+- Supabase Github Provider for Auth
+- Create Types from Database Tables using Supabase
+- Client and Server Components ('use client' and 'use server')
+- Middlewares for Protected Routes
+- Providers for mantain state in the app of the session
+- Provider Using Server Session from props
+- Use Session in React Server Components (getServerSession) in pages
+- Use useSession Hook in Client Components for create buttons and use signIn and signOut functions - Session from NextAuth Context
+- Protected Routes Pages using Server Session (getServerSession) or Middleware
+- Protected API Routes using Route Handlers API
+- Auth in API Routes
+- Auth in Server Actions
+- Proxied Auth in RSC's using headers() from Next.js
+- usePathater Hook for get the path of the current page and add styles using TailwindCSS
+
+### Links Projects
+
+- [Midudev - Clon de X con Next.js 13, Supabase, React, TypeScript y TailwindCSS](https://www.youtube.com/watch?v=V_kD2q_aoy8)
+
 ## Getting Started
 
 First, run the development server:
