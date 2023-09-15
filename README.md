@@ -8,7 +8,7 @@ Nextjs 13 Project using:
 - Import Alias (@)
 - ESLint
 - .env.local and .env
-- Google Fonts and TailwindCSS, NextUI and Framer Motion, Flowbite Icons SVG
+- Google Fonts and TailwindCSS, NextUI and Framer Motion, Flowbite Icons SVG, Tabler Icons
 - Metadata
 - Link and Image Components
 - Layout and Page Structure
