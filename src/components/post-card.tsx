@@ -29,7 +29,7 @@ const PostCard = ({ post }: Props) => {
       <CardHeader className="justify-between">
         <div className="flex gap-5">
           <Link href={`/${userName}`}>
-            <Avatar radius="full" size="md" src={avatarUrl} />
+            <Avatar radius="full" src={avatarUrl} className='w-10 h-10'/>
           </Link>
           <div className="flex flex-col gap-1 items-start justify-center">
             <h4 className="text-small font-semibold leading-none text-default-600">

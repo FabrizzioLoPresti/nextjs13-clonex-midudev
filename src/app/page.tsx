@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation'
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import AuthButtonServer from '@/components/auth-button-server'
 import PostList from '@/components/post-list'
+import ComposePost from '@/components/compose-post'
 import { type Post } from '@/types/types'
 
 export default async function Home () {
@@ -21,10 +22,11 @@ export default async function Home () {
 
   return (
     <main className="container mx-auto h-screen">
-      <section className="flex flex-col items-center max-w-[600px] mx-auto border-l border-r border-white/30 min-h-screen">
-        <AuthButtonServer />
+      <section className="flex flex-col items-center max-w-[600px] mx-auto border-l border-r border-white/30">
+        <ComposePost avatarUrl={session.user.user_metadata.avatar_url} />
         <PostList posts={posts as Post[]} />
       </section>
+      <AuthButtonServer />
     </main>
   )
 }

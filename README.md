@@ -17,7 +17,7 @@ Nextjs 13 Project using:
 - API Routes using Route Handlers API
 - Supabase Auth, Database Real Time, API, Edge Functions, Real Time Subscriptions, Storage, Vectors AI and Auth Providers (vs Firebase but Supabase have best scalability)
 - Supabase Github Provider for Auth
-- Create Types from Database Tables using Supabase
+- Generate Types from Database Tables using Supabase
 - Client and Server Components ('use client' and 'use server')
 - Middlewares for Protected Routes
 - Providers for mantain state in the app of the session
@@ -28,6 +28,7 @@ Nextjs 13 Project using:
 - Protected API Routes using Route Handlers API
 - Auth in API Routes
 - Auth in Server Actions
+- POST Request for create a Post in Supabase usimg Server Actions
 - Proxied Auth in RSC's using headers() from Next.js
 - usePathater Hook for get the path of the current page and add styles using TailwindCSS
 
