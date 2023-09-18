@@ -19,6 +19,7 @@ export default async function Home () {
   const { data: posts } = await supabase
     .from('posts')
     .select('*, user: users(name, user_name, avatar_url)')
+    .order('created_at', { ascending: false })
 
   return (
     <main className="container mx-auto h-screen">
