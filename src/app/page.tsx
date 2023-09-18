@@ -24,7 +24,7 @@ export default async function Home () {
     .order('created_at', { ascending: false })
 
   return (
-    <main className="container mx-auto h-screen">
+    <main className="container mx-auto">
       <section className="flex flex-col items-center max-w-[600px] mx-auto border-l border-r border-white/30">
         <ComposePost avatarUrl={session.user.user_metadata.avatar_url} />
         <PostList posts={posts as Post[]} />
