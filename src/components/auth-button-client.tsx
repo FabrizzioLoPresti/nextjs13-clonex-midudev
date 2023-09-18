@@ -15,12 +15,11 @@ interface Props {
 const AuthButton = ({ session }: Props) => {
   const router = useRouter()
   const supabase = createClientComponentClient()
-
   const handleSignIn = async () => {
     await supabase.auth.signInWithOAuth({
       provider: 'github',
       options: {
-        redirectTo: `${process.env.BACKEND_URL}/auth/callback`
+        redirectTo: `${process.env.NEXT_PUBLIC_BACKEND_URL}/auth/callback`
       }
     })
   }
