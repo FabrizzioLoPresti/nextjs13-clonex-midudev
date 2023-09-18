@@ -1,5 +1,7 @@
 import AuthButtonServer from '@/components/auth-button-server'
 
+export const dynamic = 'force-dynamic'
+
 // type Props = {}
 
 export default function LoginPage () {

@@ -6,6 +6,8 @@ import PostList from '@/components/post-list'
 import ComposePost from '@/components/compose-post'
 import { type Post } from '@/types/types'
 
+export const dynamic = 'force-dynamic'
+
 export default async function Home () {
   const supabase = createServerComponentClient({ cookies })
   const {
